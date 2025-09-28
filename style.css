@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+#clock {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #f0f2f5;
+    border: none;
+    color: #333;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .btn-group {
+    display: none;
+}
+
+.list-group-item:hover .btn-group {
+    display: block;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.reminder-time {
+    font-size: 0.8rem;
+    color: #999;
+    margin-left: 10px;
+}
+
+#note-input {
+    min-height: 100px;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode .card-title {
+    color: #fff;
+}
+
+.dark-mode .form-control {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
+
+.dark-mode .list-group-item {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode .completed {
+    color: #aaa;
+}
+
+.dark-mode .reminder-time {
+    color: #aaa;
+}
